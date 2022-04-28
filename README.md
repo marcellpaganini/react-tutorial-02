@@ -40,7 +40,7 @@
   * Event handling  
   * State management 
 
-* To Do (also from the documentation)
+* To Do  
 - [ ] D
 
 ### Error messages for future reference  
