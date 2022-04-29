@@ -39,7 +39,8 @@
   * Component creation  
   * Passing data through props  
   * Event handling  
-  * State management 
+  * State management  
+  * Dom element reference
 
 * To Do  
 - [ ] ❔  
