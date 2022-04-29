@@ -30,6 +30,10 @@
   ```bash
   npm start
   ```   
+  * Add uuid library  
+  ```bash
+  npm i uuid
+  ```
 
 ### Programming Topics practiced to get things done  
 #### 1- To-do List (React)  
