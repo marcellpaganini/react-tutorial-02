@@ -45,7 +45,7 @@
 - [ ] ❔
 
 ### Error messages for future reference  
-❌ 'TodoList' is not defined.
+❌ 'TodoList' is not defined.  
 **Solution** Click on the solutions lightbulb and choose disable JSX-no-defined for the entire file  
 ✖ This component is not running in strict mode  
 **Solution**  Change ```root.render(<Game />);``` to ```  root.render(<React.StrictMode><Game /></React.StrictMode>);```  
