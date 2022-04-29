@@ -42,9 +42,11 @@
   * State management 
 
 * To Do  
-- [ ] ❔
+- [ ] ❔  
 
 ### Error messages for future reference  
+❌ Warning: Each child in a list should have a unique "key" prop.  
+**Solution**  Add a key parameter to the component ```<Todo key={todo} todo={todo} />```
 ❌ Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>?    
 **Solution** Add ```<>Components</>``` in the component return (fragment).  
 ❌ 'TodoList' is not defined.  
@@ -53,6 +55,6 @@
 **Solution**  Change ```root.render(<Game />);``` to ```  root.render(<React.StrictMode><Game /></React.StrictMode>);```  
 ✖ Warning: You are importing createRoot from "react-dom" which is not supported. You should instead import it from "react-dom/client".  
 **Solution:** Change ```import ReactDOM from 'react-dom';``` to ```import ReactDOM from 'react-dom/client';```  
-✖ ERROR in Plugin "react" was conflicted between "package.json and BaseConfig  
+✖ ERROR in Plugin "react" was conflicted between "package.json and BaseConfig.  
 **Solution:** Open package.json and hit ctrl + save (temporary workaround). Changed directory structure that was case sensitive (real solution).     
   
