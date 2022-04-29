@@ -4,8 +4,8 @@ export default function Todo({ todo }) {
   return (
     <div>
         <label>
-            <input type="checkbox" checked={todo.complete} onChange={() => {}}></input>
-            {todo.name}
+            <input type="checkbox" checked={ todo.complete } onChange={ () => {} }></input>
+            { todo.name }
         </label>
     </div>
   )
