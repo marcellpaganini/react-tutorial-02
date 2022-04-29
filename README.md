@@ -17,7 +17,7 @@
   ``` 
   * Create React App  
   ```bash
-  npx create-react-app my-app
+  npx create-react-app .
   ```   
   * Delete all files in the src/ folder  
   * Add index.js  
@@ -34,16 +34,19 @@
 ### Programming Topics practiced to get things done  
 #### 1- To-do List (React)  
 * Overview  
-  * React Project creation  
+  * React Project creation
+  * Using ES7 React extension snippets  
   * Component creation  
   * Passing data through props  
   * Event handling  
   * State management 
 
 * To Do  
-- [ ] D
+- [ ] ❔
 
 ### Error messages for future reference  
+❌ 'TodoList' is not defined.
+**Solution** Click on the solutions lightbulb and choose disable JSX-no-defined for the entire file
 ✖ This component is not running in strict mode  
 **Solution**  Change ```root.render(<Game />);``` to ```  root.render(<React.StrictMode><Game /></React.StrictMode>);```  
 ✖ Warning: You are importing createRoot from "react-dom" which is not supported. You should instead import it from "react-dom/client".  
