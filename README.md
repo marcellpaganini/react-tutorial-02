@@ -46,7 +46,7 @@
 
 ### Error messages for future reference  
 ❌ Warning: Each child in a list should have a unique "key" prop.  
-**Solution**  Add a key parameter to the component ```<Todo key={todo} todo={todo} />```
+**Solution**  Add a key parameter to the component ```<Todo key={todo} todo={todo} />```  
 ❌ Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>?    
 **Solution** Add ```<>Components</>``` in the component return (fragment).  
 ❌ 'TodoList' is not defined.  
