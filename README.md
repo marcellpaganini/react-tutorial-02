@@ -47,7 +47,9 @@
   * Dom element reference
 
 * To Do  
-- [ ] ❔  
+- [ ] Add style  
+- [ ] Create a tag to mark task as important  Mark task as important🔘 / Important⭐  
+- [ ] Add completed task to another list of completed tasks to be shown under the component.
 
 ### Error messages for future reference  
 ❌ Warning: Each child in a list should have a unique "key" prop.  
