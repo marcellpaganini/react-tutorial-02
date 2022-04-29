@@ -45,9 +45,11 @@
 - [ ] ❔
 
 ### Error messages for future reference  
-❌ 'TodoList' is not defined.
-**Solution** Click on the solutions lightbulb and choose disable JSX-no-defined for the entire file  
-✖ This component is not running in strict mode  
+❌ Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>?    
+**Solution** Add ```<>Components</>``` in the component return (fragment).
+❌ 'TodoList' is not defined.  
+**Solution** Add ```import TodoList from './TodoList'``` to the file.  
+✖ This component is not running in strict mode.  
 **Solution**  Change ```root.render(<Game />);``` to ```  root.render(<React.StrictMode><Game /></React.StrictMode>);```  
 ✖ Warning: You are importing createRoot from "react-dom" which is not supported. You should instead import it from "react-dom/client".  
 **Solution:** Change ```import ReactDOM from 'react-dom';``` to ```import ReactDOM from 'react-dom/client';```  
