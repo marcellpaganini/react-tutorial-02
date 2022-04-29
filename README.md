@@ -46,7 +46,7 @@
 
 ### Error messages for future reference  
 ❌ Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>?    
-**Solution** Add ```<>Components</>``` in the component return (fragment).
+**Solution** Add ```<>Components</>``` in the component return (fragment).  
 ❌ 'TodoList' is not defined.  
 **Solution** Add ```import TodoList from './TodoList'``` to the file.  
 ✖ This component is not running in strict mode.  
