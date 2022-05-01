@@ -1,0 +1,15 @@
+button {
+    background-color: #42856c;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 4px 0px 8px 0px;
+    cursor: pointer;
+    border-radius: 2%;
+    height: 40px;
+  }
+
+.left {
+	font-family: "Lucida", Courier, monospace;
+}
