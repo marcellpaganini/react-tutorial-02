@@ -30,7 +30,7 @@ function App() {
     const name = todoNameRef.current.value;
     if (name === "") return;
     setTodos(prevTodos => {
-      return [...prevTodos, { id: uuidv4(), name: name, complete: false }]
+      return [...prevTodos, { id: uuidv4(), name: name, complete: false, important: false }]
     })
     todoNameRef.current.value = null;
   }
@@ -40,14 +40,21 @@ function App() {
     setTodos(newTodos);
   }
 
+  const toggleImportant = (id) => {
+    const newTodos = [...todos];
+    const todo = newTodos.find(todo => todo.id === id);
+    todo.important = !todo.important;
+    setTodos(newTodos);
+  }
+
   return (
     <>
       <h1>To Do App</h1>
-      <TodoList todos={ todos } toggleTodo={ toggleTodo }/>
+      <TodoList todos={ todos } toggleTodo={ toggleTodo } toggleImportant={ toggleImportant } />
       <input ref={ todoNameRef } type="text" />
       <button onClick={ handleAddTodo }>Add Todo</button><br />
       <button onClick={ handleClearTodos }>Clear Complete</button>
-      <div class="left">{todos.filter(t => t.complete === false).length} left to do.</div>
+      <div className="left">{todos.filter(t => t.complete === false).length} left to do.</div>
     </>
   )
 }

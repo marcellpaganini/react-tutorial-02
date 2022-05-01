@@ -13,3 +13,7 @@ button {
 .left {
 	font-family: "Lucida", Courier, monospace;
 }
+
+.important {
+  background-color: transparent;
+}
