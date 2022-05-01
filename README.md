@@ -47,7 +47,7 @@
   * Dom element reference
 
 * To Do  
-- [ ] Add style  
+- [x] Add style  
 - [ ] Create a tag to mark task as important - Mark task as important🔘 / Important⭐  
 - [ ] Add completed task to another list of completed tasks to be shown under the component.  
 - [ ] Add a toggle for dark mode
